@@ -1,7 +1,7 @@
 # GDD
 
 
-## PRESENTACIÓN/RESUMEN
+## PRESENTACIÓN/RESUMEN
 
 - Título: Rotational Defense
 - Concepto: Juego de defensa rotacional. El jugador solo se podrá girar para poder defenderse de los enemigos.
@@ -44,6 +44,6 @@ La GUI durante la partida mostrará la puntuación y las vidas del jugador. Podr
 ## ASSETS
 
 - Música: piezas compuestas por Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Ken-ichi Saito, Yoshihiro Maeda para el juego [Pokémon Mundo Misterioso: Exploradores del cielo](https://pokemon.fandom.com/es/wiki/Pok%C3%A9mon_Mundo_Misterioso:_Exploradores_del_Cielo, "Pokemon") del un [repositorio online](https://downloads.khinsider.com/game-soundtracks/album/pokemon-mystery-dungeon-explorers-of-sky) que contiene toda su OST. Esta música podrá usarse siempre que mi proyecto no tenga fines comerciales.
-- Efectos de sonido :recopilados de distintos repositorios de sonidos para videojuegos. De nuevo con libertad de uso no comercial.
+- Efectos de sonido: recopilados de distintos repositorios de sonidos para videojuegos. De nuevo con libertad de uso no comercial.
 - Modelos: hay algunos modelos y sprites modificados por mí, mas la base es del [BlackThornProd](https://www.youtube.com/@Blackthornprod)
 - Base: la base del proyecto sale del [tutorial de BlackThornProd](https://www.youtube.com/watch?v=K1_7ye_pTCo), al que yo añadiría diferentes niveles de dificultad, pantalla de inicio, pantalla de pérdida, pantalla de pausa y distintos layouts de niveles.
