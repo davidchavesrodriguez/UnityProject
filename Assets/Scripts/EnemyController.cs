@@ -38,14 +38,11 @@ public class EnemyController : MonoBehaviour
             player.AddScore();
             PlaySound(destroySound);
 
-            // 🛑 Desactivar colisiones y movimiento
             enemyCollider.enabled = false;
             speed = 0;
 
-            // 👀 Ocultar sprite para que desaparezca visualmente
             spriteRenderer.enabled = false;
 
-            // ⏳ Destruir después de que termine el sonido
             Destroy(gameObject, destroySound.length);
         }
         else if (other.CompareTag("Player") && !inactive)
