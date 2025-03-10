@@ -31,6 +31,12 @@ public class PlayerController : MonoBehaviour
     {
         // Rotar ao xogador
         transform.Rotate(Vector3.forward * turnSpeed * Input.GetAxisRaw("Horizontal") * Time.deltaTime);
+
+        // Pausar o xogo
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            TogglePause();
+        }
     }
 
     public void TakeDamage()
@@ -61,4 +67,14 @@ public class PlayerController : MonoBehaviour
         score++;
         scoreDisplay.text = "Puntos: " + score;
     }
+
+    void TogglePause()
+    {
+        if (Time.timeScale == 1)
+        {
+            Time.timeScale = 0;
+            SceneManager.LoadScene("PauseScene", LoadSceneMode.Additive);
+        }
+    }
+
 }
