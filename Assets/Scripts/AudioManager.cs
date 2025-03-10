@@ -13,7 +13,7 @@ public class AudioManager : MonoBehaviour
 
     void Awake()
     {
-        // Evitar duplicados al cambiar de escena
+        // Evitar dulpicados
         if (instance == null)
         {
             instance = this;
@@ -31,7 +31,6 @@ public class AudioManager : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         PlayMusicForCurrentScene();
 
-        // Suscribirse al cambio de escena para actualizar la música
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
@@ -63,7 +62,6 @@ public class AudioManager : MonoBehaviour
                 break;
         }
 
-        // Si la música actual es diferente, cámbiala
         if (audioSource.clip != newClip)
         {
             audioSource.clip = newClip;

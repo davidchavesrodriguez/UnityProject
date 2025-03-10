@@ -47,3 +47,7 @@ La GUI durante la partida mostrará la puntuación y las vidas del jugador. Podr
 - Efectos de sonido: recopilados de distintos repositorios de sonidos para videojuegos. De nuevo con libertad de uso no comercial.
 - Modelos: hay algunos modelos y sprites modificados por mí, mas la base es del [BlackThornProd](https://www.youtube.com/@Blackthornprod)
 - Base: la base del proyecto sale del [tutorial de BlackThornProd](https://www.youtube.com/watch?v=K1_7ye_pTCo), al que yo añadiría diferentes niveles de dificultad, pantalla de inicio, pantalla de pérdida, pantalla de pausa y distintos layouts de niveles.
+
+## Enlace al juego
+Algunas de las escenas no se ven del todo bien al cambiarse la proporción de la pantalla. El juego está hecho para ser 16:9
+[Juégalo en UnityPlay](https://play.unity.com/en/games/8b7bb2d6-3978-4b41-9c76-54d3a05e90db/rotational-defense)
