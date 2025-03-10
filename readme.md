@@ -50,4 +50,5 @@ La GUI durante la partida mostrará la puntuación y las vidas del jugador. Podr
 
 ## Enlace al juego
 Algunas de las escenas no se ven del todo bien al cambiarse la proporción de la pantalla. El juego está hecho para ser 16:9
+
 [Juégalo en UnityPlay](https://play.unity.com/en/games/8b7bb2d6-3978-4b41-9c76-54d3a05e90db/rotational-defense)
